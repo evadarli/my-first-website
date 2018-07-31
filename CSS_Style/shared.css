@@ -1,0 +1,125 @@
+* { box-sizing: border-box;}
+
+body {
+ font-family: "Montserrat", sans-serif;
+ margin:0;}
+ 
+ section {
+     font-family: san-serif;
+  }
+  
+ span {
+   font-weight: bolder;
+   font-style: italic;
+  }
+  
+ header { background: #19b84c;}
+
+ .main_nav-item {
+   display:inline-block;
+   font-style: italic;
+   font-size: large;
+   padding: 15px 20px;
+   border: solid 3px;
+   border-color: rgba(0,0,0, 0.5);
+   box-shadow: 2px 2px 5px rgb(255,255,255);
+   text-decoration: none;
+   color: white;
+   }
+   
+ header > div { 
+   display:inline-block;
+   font-weight: 900;
+   color: black;
+   }
+   
+   .main_header-brand {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+   }
+   
+ .main_nav {
+   display: inline-block;
+  text-align: right;
+   width: calc(100% - 73px);
+  } 
+  
+  .main_nav-items {
+   padding: 0;
+   margin: 0;
+     }
+  
+  .main_nav-item a::after {
+    content:" (click)";
+    color: white;
+    font-style: italic;
+    font-size: 10px;
+  }
+
+  .main_nav-item a {
+   text-decoration: none;
+   color: black;
+   font-weight: 900;
+  }
+  
+  .main_nav-item a:hover {color:white;}
+   
+  .main_nav-item a:active {color:red;}
+  
+ .button {
+  background: #0e4f1f;
+  color: white;
+  font: inherit;
+  border: 1.5px solid #0e4f1f;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: bolder;
+  cursor: pointer;
+ }
+ 
+ .button:hover,
+ .button:active {
+  background: white;
+  color: #0e4f1f;
+ }
+ 
+ .button:focus {
+  outline: none;
+ }
+ 
+  .main_footer {
+   background-color: black;
+   padding:32px;
+   margin-top:48px;
+  }
+  
+  .main_footer-links {
+   list-style:none;
+   padding: 0;
+   margin:0;
+   text-align: center;
+ }
+ .main_footer-link {
+  display: inline-block;
+  margin: 0 16px;
+ }
+ 
+ .main_footer-link a {
+  color:white;
+  text-decoration: none;
+ }
+ 
+ .main_footer-link a:hover, 
+ .main_footer-link a:active{
+  color: #ccc;
+ }
+ 
+ .main_footer-link a::after{
+  content:"(click)";
+  color: white;
+  font-style: italic;
+  font-size: 10px;
+ }

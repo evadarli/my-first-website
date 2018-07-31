@@ -1,0 +1,11 @@
+main {
+    padding: 36px;
+}
+
+.packages {
+    border:3px solid black;
+    box-shadow: 2px 2px;
+    background-color: #0e4f1f;
+    width:80%;
+    margin: 16px;
+}
